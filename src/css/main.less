@@ -1,0 +1,407 @@
+.content {
+	min-width: 1140px;
+	margin: 0 auto;
+	font-family: 'Roboto-Regular', sans-serif;
+}
+
+.inner {
+	width: 1140px;
+	margin: 0 auto;
+	background: white;
+}
+
+
+.top-wrap {
+	margin: 0 auto;
+	//background: #D2B7CC;
+	border-top: 2px grey;
+	padding: 0 50px;
+	> .inner {
+		width: ~'calc(1140px - 100px)';
+	}
+	.header {
+		padding: 17px 0px 20px 0px;
+		
+		background: white;
+	    > .affiliate {
+	    	height: 126px;
+	    	text-align: center;
+	    	margin: 0 460px;
+	    	color: white;
+	    	background: url('images/ok.jpg') no-repeat 0 0;
+	    	padding-left: 47px;
+	    	background-size: contain;
+	    	font-size: 36px;
+	    	font-family: 'ArialRoundedMT-Bold', sans-serif;
+	    	color: #8a6899;
+	    }
+	    > ul.menu {    
+		    display: flex;
+		    width: 750px;
+		 	flex-grow: 2;
+		    margin: 31px auto 0 auto;
+		    list-style: none;
+		    padding: 0!important;
+		    line-height: 30px;
+		    text-transform: right;
+		    >li {
+		    	flex: 1;
+		    	text-transform: uppercase;
+		    	display: list-item;
+		    	text-align: center;
+		    	position: relative;
+		    	color: #8a6899;
+		    	font-size: 14px;
+		    	cursor: pointer;
+		    	height: 32px;
+		    	line-height: 33px;
+		    	&:hover { 
+ 				background:white ;
+ 				transition: all .2s ease-in-out;
+ 				color: #724F82;
+
+
+	 			}
+		    }
+	    }
+	}
+	
+}	
+
+.wrap-two {
+	background: #ebdff0 ;
+	//background: white;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	
+			> .photos {
+				margin: 0 auto;
+				width: 1100px;
+				box-shadow: 0px 0px 70px 3px rgba(207,202,209,.7);
+			
+				> .photos-one {
+					cursor: pointer;
+				padding-top: 50px;
+				display: flex;
+			    margin: 0 auto;
+			    list-style: none;
+			    //width: 950px;
+			    flex-wrap:wrap;
+			    //background: #EFCEFD;
+			    background: #f7f2fa;
+
+					> .family { 
+					//background: url('images/family.jpg') no-repeat 0 0;
+					//background-blend-mode: hard-light, multiply, normal;
+					background: url('images/family.jpg') no-repeat 0 0;
+					position: relative;
+					height: 205px;
+					background-size: cover;
+					flex: 1;
+					min-width: 200px;
+					text-align: center;
+					margin-right: 15px;
+					margin-left: 20px;
+					background-color:#3D1C3F;
+  					background-blend-mode: screen;
+  					&:hover {
+  						&:before {
+  							opacity: 1;
+  						}
+  					}
+					&:before {
+						    content: '';
+						    display: block;
+						    position: absolute;
+						    top: 0;
+						    right: 0;
+						    bottom: 0;
+						    left: 0;
+						    background: url('images/family.jpg') no-repeat 0 0;
+					background-size: cover; 
+						    border-radius: inherit; 
+						    opacity: 0;
+						    transition: all .5s;
+						    }
+						> h5 {
+						font-size: 15px;
+						color: #B4AEB7;
+						margin: -25px auto 21px auto;
+						text-align: center;
+						text-transform: uppercase;
+					}
+
+					}
+					> .wedding {
+					flex: 1;
+					min-width: 205px;
+					text-align: center;
+					background: url('images/wedding.jpg') no-repeat 0 0;
+					background-size: cover;
+					margin-right: 15px;
+					position: relative;
+					height: 205px;
+						> h5 {
+							font-size: 15px;
+							color: #B4AEB7;
+							margin: -25px auto 21px auto;
+							text-align: center;
+							text-transform: uppercase;
+						}
+					background-color: #3D1C3F;
+  					background-blend-mode: screen;
+  					&:hover {
+  						&:before {
+  							opacity: 1;
+  						}
+  					}
+					&:before {
+						    content: '';
+						    display: block;
+						    position: absolute;
+						    top: 0;
+						    right: 0;
+						    bottom: 0;
+						    left: 0;
+						    background: url('images/wedding.jpg') no-repeat 0 0;
+							background-size: cover; 
+						    border-radius: inherit; 
+						    opacity: 0;
+						    transition: all .5s;
+						    }
+
+					}
+					> .baby {
+					flex: 1;
+					min-width: 205px;
+					text-align: center;
+					background: url('images/baby.jpg') no-repeat 0 0;
+					background-size: cover;
+					margin-right: 19px;
+					position: relative;
+					height: 205px;
+						> h5 {
+							font-size: 15px;
+							color: #B4AEB7;
+							margin: -25px auto 21px auto;
+							text-align: center;
+							text-transform: uppercase;
+						}
+					background-color: #3D1C3F;
+  					background-blend-mode: screen;
+  					&:hover {
+  						&:before {
+  							opacity: 1;
+  						}
+  					}
+					&:before {
+						    content: '';
+						    display: block;
+						    position: absolute;
+						    top: 0;
+						    right: 0;
+						    bottom: 0;
+						    left: 0;
+						    background: url('images/baby.jpg') no-repeat 0 0;
+					background-size: cover; 
+						    border-radius: inherit; 
+						    opacity: 0;
+						    transition: all .5s;
+						    }
+					}
+					
+				}
+				> .photos-two {
+					    padding-bottom: 45px;
+
+				cursor: pointer;
+				padding-top: 60px;
+				display: flex;
+			    margin: 0 auto;
+			    list-style: none;
+			    //width: 950px;
+			    flex-wrap:wrap;
+
+			    
+			    //background: #EFCEFD;
+			    background: #f7f2fa;
+
+
+
+					> .love {
+						flex: 1;
+						min-width: 205px;
+						text-align: center;
+						background: url('images/love.jpg') no-repeat 0 -7px;
+						background-size: cover;
+						margin-right: 19px;
+						margin-left: 15px;
+						position: relative;
+						height: 196px;
+							> h5 {
+								font-size: 15px;
+								color: #B4AEB7;
+								margin: -25px auto 21px auto;
+								text-align: center;
+								text-transform: uppercase;
+							}
+						background-color: #3D1C3F;
+	  					background-blend-mode: screen;
+	  					&:hover {
+	  						&:before {
+	  							opacity: 1;
+	  						}
+	  					}
+						&:before {
+							    content: '';
+							    display: block;
+							    position: absolute;
+							    top: 0;
+							    right: 0;
+							    bottom: 0;
+							    left: 0;
+							    background: url('images/love.jpg') no-repeat 0 -7px;
+								background-size: cover; 
+							    border-radius: inherit; 
+							    opacity: 0;
+							    transition: all .5s;
+						}
+					}
+					> .studio {
+						position: relative;
+						flex: 1;
+						min-width: 205px;
+						text-align: center;
+						background: url('images/studio.jpg') no-repeat 0 0;
+						background-size: cover;
+						margin-right: 19px;
+						    height: 195px;
+
+							> h5 {
+								font-size: 15px;
+								color: #B4AEB7;
+								margin: -25px auto 21px auto;
+								text-align: center;
+								text-transform: uppercase;
+							}
+							background-color: #3D1C3F;
+	  					background-blend-mode: screen;
+	  					&:hover {
+	  						&:before {
+	  							opacity: 1;
+	  						}
+	  					}
+						&:before {
+							    content: '';
+							    display: block;
+							    position: absolute;
+							    top: 0;
+							    right: 0;
+							    bottom: 0;
+							    left: 0;
+							    background: url('images/studio.jpg') no-repeat 0 0;
+						background-size: cover; 
+							    border-radius: inherit; 
+							    opacity: 0;
+							    transition: all .5s;
+							    }
+					}
+					> .pregnant {
+						position: relative;
+						flex: 1;
+						min-width: 205px;
+						text-align: center;
+						background: url('images/pregnant.jpg') no-repeat 0 0;
+						background-size: cover;
+						margin-right: 19px;
+						    height: 195px;
+
+							> h5 {
+								font-size: 15px;
+								color: #B4AEB7;
+								margin: -25px auto 21px auto;
+								text-align: center;
+								text-transform: uppercase;
+							}
+						background-color: #3D1C3F;
+	  					background-blend-mode: screen;
+	  					&:hover {
+	  						&:before {
+	  							opacity: 1;
+	  						}
+	  					}
+						&:before {
+							    content: '';
+							    display: block;
+							    position: absolute;
+							    top: 0;
+							    right: 0;
+							    bottom: 0;
+							    left: 0;
+							    background: url('images/pregnant.jpg') no-repeat 0 0;
+						background-size: cover; 
+							    border-radius: inherit; 
+							    opacity: 0;
+							    transition: all .5s;
+						}
+				    }
+				}
+			}	
+			> .footer {
+				    padding-top: 35px;
+				    width: 1100px;
+				    border-top: 1px solid #A8A3A8;
+				    padding-top: 13px;
+				    margin: 53px auto 5px auto;
+				> ul.icons {
+					    text-align: center;
+						> i.icon-vk {
+						height: 32px;
+						width: 32px;
+						margin: 0 auto;
+						background: white ;
+						color:#9f94a3;
+						font-size: 32px;
+						//border-radius: 5px;
+						text-align: center;
+						cursor: pointer;
+						margin-top: 20px;
+						margin-right: 10px;
+						 &:hover {
+						 	color: rgba(44, 107, 201, 1);
+
+						 	transition: all .2s ease-in-out;
+						 }
+
+					}
+					> i.icon-instagram {
+						height: 32px;
+						width: 32px;
+						margin: 0 auto;
+						color:#9f94a3;
+						font-size: 32px;
+						text-align: center;
+						cursor: pointer;
+						margin-top: 20px;
+						 &:hover {
+						 	color: rgba(44, 107, 201, 1);
+
+						 	transition: all .2s ease-in-out;
+						 }
+
+
+					}
+				}
+				> .phone {
+					margin: 0 auto;
+				    text-align: center;
+				    margin-top: 20px;
+				}
+				> .name {
+					text-align: center;
+					color: #b4aeb7;
+				    font-size: 14px;
+				    margin-top: 22px;
+				}
+			}
+}
