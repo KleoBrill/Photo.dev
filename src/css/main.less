@@ -1,3 +1,8 @@
+/*!
+test cat
+*/
+
+
 .content {
 	min-width: 1140px;
 	margin: 0 auto;
@@ -23,7 +28,9 @@
 		padding: 17px 0px 20px 0px;
 		
 		background: white;
-	    > .affiliate {
+	    > .logo {
+	    	display: block;
+	    	cursor: pointer;
 	    	height: 126px;
 	    	text-align: center;
 	    	margin: 0 460px;
@@ -62,6 +69,10 @@
 
 
 	 			}
+	 			> a {
+	 				color: inherit;
+	 				text-decoration: none;
+	 			}	
 		    }
 	    }
 	}
@@ -89,7 +100,6 @@
 			    flex-wrap:wrap;
 			    //background: #EFCEFD;
 			    background: #f7f2fa;
-
 					> .family { 
 					//background: url('images/family.jpg') no-repeat 0 0;
 					//background-blend-mode: hard-light, multiply, normal;
@@ -212,8 +222,7 @@
 					
 				}
 				> .photos-two {
-					    padding-bottom: 45px;
-
+				padding-bottom: 45px;
 				cursor: pointer;
 				padding-top: 60px;
 				display: flex;
@@ -339,12 +348,91 @@
 							    bottom: 0;
 							    left: 0;
 							    background: url('images/pregnant.jpg') no-repeat 0 0;
-						background-size: cover; 
+								background-size: cover; 
 							    border-radius: inherit; 
 							    opacity: 0;
 							    transition: all .5s;
 						}
 				    }
+				}
+				> .price {
+					padding: 50px 50px;
+					line-height: 35px;
+					background: #f7f2fa;
+					margin: 0 auto;
+					width: 1100px;
+					box-shadow: 0px 0px 70px 3px rgba(207,202,209,.7);
+				
+					    > .price-one {
+
+					 	position: relative;
+					 	padding-bottom: 71px;
+						 	&:after {
+						 		content: '';
+							    display: block;
+							    position: absolute;
+								background: #A8A3A8;
+							    width: 700px;
+							    height: 1px;
+							    bottom: 12px;
+								right: 183px;
+						 	}
+						 	> span {
+						font-size: 21px;
+						line-height: 50px;
+						padding-left: 28px;
+						}
+						
+					 	
+						 	> .picture {
+						 		background:url('images/studio.jpg') no-repeat 0 0;
+						 		background-size: contain;
+						 		width: 557px;
+							    height: 334px;
+							    float: right;
+						 	}
+						 	> .text {
+						 		    padding-left: 30px;
+						 		    font-size: 13px;
+							    padding-right: 565px;
+						 	}
+						}
+
+					 
+						> .price-two {
+							    padding-top: 60px;
+							    position: relative;
+					 			padding-bottom: 71px;
+						 	&:after {
+						 		content: '';
+							    display: block;
+							    position: absolute;
+								background: #A8A3A8;
+							    width: 700px;
+							    height: 1px;
+							    bottom: 12px;
+								right: 183px;
+						 	}
+
+							> span {
+								font-size: 21px;
+								line-height: 50px;
+								padding-left: 28px;
+								}
+							 > .picture {
+							 	background:url('images/studio.jpg') no-repeat 0 0;
+						 		background-size: contain;
+						 		width: 557px;
+							    height: 334px;
+							    float: right;
+							}
+							> .text {
+						 		    padding-left: 30px;
+						 		    font-size: 13px;
+							    padding-right: 565px;
+						 	}
+						}
+							
 				}
 			}	
 			> .footer {

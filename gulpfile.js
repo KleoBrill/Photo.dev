@@ -8,7 +8,7 @@ const gulp = require('gulp'),
 	autoprefixer = require('gulp-autoprefixer');
 
 gulp.task('views', function() {
-	gulp.src('./src/index.html')
+	gulp.src('./src/**/**.html')
 		.pipe(gulp.dest('dist'));
 });
 
@@ -23,7 +23,7 @@ gulp.task('fonts', function() {
 });
 
 gulp.task('less', function() {
-	gulp.src(['./src/css/**/**.css', './src/css/**/**.less'])
+	gulp.src(['./src/css/main.less', './src/css/**/**.css', './src/css/**/**.less'])
 		.pipe(less({
 			includePaths: [],
 			errLogToConsole: true,
